@@ -1,0 +1,162 @@
+h2 {
+    margin-bottom: 0;
+  }
+  p {
+    margin: 1em 0 0 0;
+  }
+  a.learn-more:nth-child(even) {
+    margin-left: 48px;
+  }
+  .padded {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  @media screen and (max-width: 1024px) {
+    .padded {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    h2 {
+      font-size: 40px;
+      letter-spacing: -0.028em;
+      margin: 0 0 0.5em 0;
+    }
+  }
+  section#main {
+    margin-top: 8px;
+  }
+  section#main .box {
+    padding-top: 64px;
+    background-image: linear-gradient(to bottom, #e9ecf1, #c7cdd7);
+  }
+  @media screen and (max-width: 1024px) {
+    section#main .box {
+      padding-top: 32px;
+    }
+  }
+  section#main .box figure {
+    margin-top: 64px;
+    position: relative;
+    overflow: hidden;
+    height: 380px;
+    border-radius: 0 0 16px 16px;
+  }
+  section#main .box figure img {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    section#main .box figure {
+      height: 240px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    section#main .box figure {
+      height: 180px;
+    }
+  }
+  section#other-info .box {
+    vertical-align: top;
+    padding-top: 64px;
+    background-image: linear-gradient(to bottom, #e9ecf1, #c7cdd7);
+  }
+  section#other-info #archlan-i3.box {
+    margin: 0 32px 0 0;
+  }
+  section#other-info #donate.box {
+    margin: 0 0 0 32px;
+  }
+  @media screen and (max-width: 1024px) {
+    section#other-info .box {
+      padding-top: 32px;
+    }
+    section#other-info #archlan-i3.box {
+      margin: 0 32px 0 0;
+    }
+    section#other-info #donate.box {
+      margin: 0 0 0 32px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    section#other-info #archlan-i3.box {
+      margin: 0 0 64px 0;
+    }
+    section#other-info #donate.box {
+      margin: 0;
+    }
+  }
+  section#other-info .box figure {
+    margin-top: 64px;
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    border-radius: 0 0 16px 16px;
+  }
+  section#other-info .box figure img {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+  }
+  section#other-pages .box {
+    vertical-align: top;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  section#other-pages #help.box {
+    margin: 0 32px 0 0;
+  }
+  section#other-pages #blog.box {
+    margin: 0 0 0 32px;
+  }
+  @media screen and (max-width: 1024px) {
+    section#other-pages .box {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+    section#other-pages #help.box {
+      margin: 0 32px 0 0;
+    }
+    section#other-pages #blog.box {
+      margin: 0 0 0 32px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    section#other-pages #help.box {
+      margin: 0 0 64px 0;
+    }
+    section#other-pages #blog.box {
+      margin: 0;
+    }
+  }
+  section#other-pages .box figure {
+    margin-top: 64px;
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    border-radius: 0 0 16px 16px;
+  }
+  section#other-pages .box figure img {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+  }
+  section#contact .box {
+    vertical-align: top;
+    padding: 64px;
+  }
+  @media screen and (max-width: 1024px) {
+    section#contact .box {
+      padding: 32px;
+    }
+  }
+  

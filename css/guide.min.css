@@ -1,0 +1,37 @@
+section#hero figure img {
+  width: 128px;
+  margin-bottom: 32px;
+}
+.step {
+  padding: 64px 0;
+}
+.step:first-child {
+  padding-top: 0;
+}
+.step:last-child {
+  padding-bottom: 0;
+}
+.step ul {
+  list-style-type: disc;
+}
+.step ul li {
+  margin: 32px 0;
+}
+.button-row {
+  min-height: 63px;
+}
+@media screen and (max-width: 1024px) {
+  .button-row {
+    min-height: 225px;
+  }
+}
+td {
+  border: none;
+  vertical-align: top;
+}
+td:first-child {
+  font-weight: 700;
+}
+td + td {
+  text-align: left;
+}
