@@ -135,21 +135,6 @@ h2 {
       margin: 0;
     }
   }
-  section#other-pages .box figure {
-    margin-top: 64px;
-    position: relative;
-    overflow: hidden;
-    height: 180px;
-    border-radius: 0 0 16px 16px;
-  }
-  section#other-pages .box figure img {
-    width: 100%;
-    position: absolute;
-    margin: 0 auto;
-    transform: translateX(-50%);
-    left: 50%;
-    top: 0;
-  }
   section#contact .box {
     vertical-align: top;
     padding: 64px;

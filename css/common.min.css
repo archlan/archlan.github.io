@@ -55,9 +55,6 @@ body,html{
     letter-spacing:-.02em;
     font-family:Inter,Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif,"Noto Color Emoji","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
 }
-.hidden,.hidden-no-js{
-    display:none
-}
 .white{
     background-color:#fff
 }
@@ -67,10 +64,6 @@ body,html{
 .grey-gradient{
     background-image:linear-gradient(#f5f7fa,#e9e3e9)
 }
-.red{
-    color:#fff;
-    background-color:#fa4444
-}
 .dark{
     color:#bde6fb;
     background-color:#1e2529
@@ -78,9 +71,6 @@ body,html{
 .black{
     color:#fff;
     background-color:#1b1b1b
-}
-.frame{
-    border:1px solid #e4e8ee
 }
 .container{
     max-width:1280px;
@@ -149,15 +139,6 @@ section>.container.card{
     display:block;
     float:left
 }
-.col-1{
-    width:8.33%
-}
-.col-2{
-    width:16.66%
-}
-.col-3{
-    width:25%
-}
 .col-4{
     width:33.33%
 }
@@ -172,15 +153,6 @@ section>.container.card{
 }
 .col-8{
     width:66.66%
-}
-.col-9{
-    width:75%
-}
-.col-10{
-    width:83.33%
-}
-.col-11{
-    width:91.66%
 }
 .col-12{
     width:100%
@@ -225,29 +197,8 @@ section>.container.card{
 .margin-auto{
     margin:auto!important
 }
-.margin-0{
-    margin:0!important
-}
-.max-width-100{
-    max-width:100%
-}
 .float-none{
     float:none
-}
-.float-left{
-    float:left
-}
-.float-right{
-    float:right
-}
-.valign-top{
-    vertical-align:top
-}
-.valign-middle{
-    vertical-align:middle
-}
-.valign-bottom{
-    vertical-align:bottom
 }
 .d-block{
     display:block!important
@@ -258,15 +209,12 @@ section>.container.card{
 .d-table{
     display:table!important
 }
-.d-table-cell{
-    display:table-cell!important
-}
 @media screen and (min-width:1280px){
     .d-inline-block-large{
         display:inline-block!important
     }
 }
-.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6,p.huge{
+.h1,.h2,.h3,.h4,.h5,h1,h2,h3,h4,h5,p.huge{
     font-family:"Space Grotesk",Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-feature-settings:'liga' 1,'ss04' 1,'case' 1
 }
@@ -303,14 +251,6 @@ section>.container.card{
     text-transform:uppercase;
     margin:0 0 .5em 0
 }
-.h6,h6{
-    font-size:20px;
-    letter-spacing:.08em;
-    font-weight:700;
-    text-transform:uppercase;
-    opacity:.5;
-    margin:0 0 .5em 0
-}
 p{
     font-size:20px;
     letter-spacing:-.022em;
@@ -331,13 +271,6 @@ p.large .muted{
 .dark p.large .muted{
     opacity:.6
 }
-p.huge{
-    font-size:40px;
-    font-weight:500;
-    letter-spacing:-.032em;
-    line-height:1.35;
-    margin:1em 0
-}
 @media screen and (max-width:768px){
     p.huge{
         font-size:30px;
@@ -348,24 +281,9 @@ p.huge{
         letter-spacing:-.026em
     }
 }
-p.drop-cap:first-letter{
-    float:left;
-    font-weight:700;
-    font-size:74px;
-    line-height:60px;
-    padding-top:5px;
-    padding-right:8px
-}
 blockquote{
     font-weight:500;
     color:#62778e
-}
-.emoji{
-    font-weight:400;
-    font-family:noto color emoji,apple color emoji,segoe ui emoji,android emoji,emojisymbols,emojione mozilla,twemoji mozilla,segoe ui symbol
-}
-.no-emoji{
-    font-family:Inter,Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif
 }
 #content ol,#content ul{
     margin:0 0 0 32px;
@@ -406,14 +324,8 @@ blockquote{
         letter-spacing:-.02em
     }
 }
-.font-400,.font-normal{
-    font-weight:400!important
-}
 .font-500{
     font-weight:500!important
-}
-.font-600{
-    font-weight:600!important
 }
 .font-700,.font-bold{
     font-weight:700!important
@@ -423,27 +335,12 @@ blockquote{
     line-height:1.75;
     margin:1.5em 0
 }
-sup{
-    font-size:50%;
-    vertical-align:top;
-    position:relative;
-    bottom:-.13em
-}
 small{
     font-size:14px!important;
     letter-spacing:-.006em!important
 }
-label{
-    font-size:16px;
-    letter-spacing:-.02em;
-    font-weight:700;
-    color:rgba(18,51,84,.5)
-}
 .muted{
     opacity:.5
-}
-a.button.suggested .muted,button .suggested .muted{
-    opacity:.85
 }
 a{
     color:inherit;
@@ -455,9 +352,6 @@ a:hover{
 }
 .dark a{
     color:#bde6fb
-}
-.black a{
-    color:#fff
 }
 a.no-decoration{
     text-decoration:none
@@ -477,17 +371,6 @@ a.learn-more:hover{
 a.learn-more.button:hover{
     text-decoration:none
 }
-a.learn-more.red{
-    color:#fa4444;
-    background-color:transparent
-}
-a.learn-more.flat{
-    color:inherit;
-    font-weight:400
-}
-.black a.learn-more{
-    color:#fff
-}
 a.learn-more::after{
     color:inherit;
     content:"\203a";
@@ -502,15 +385,6 @@ a.learn-more:active::after,a.learn-more:hover::after,a.learn-more:hover:active::
 }
 .text-center{
     text-align:center
-}
-.text-left{
-    text-align:left
-}
-.text-right{
-    text-align:right
-}
-label span{
-    font-weight:400
 }
 input{
     border:none;
@@ -538,17 +412,6 @@ select::-ms-expand{
 select:hover{
     background-color:rgba(18,51,84,.15)
 }
-select.checked{
-    background-color:rgba(18,51,84,.2)
-}
-::-webkit-input-placeholder{
-    color:#123354;
-    opacity:.5
-}
-:-moz-placeholder{
-    color:#123354;
-    opacity:.5
-}
 :-moz-input-placeholder{
     color:#123354;
     opacity:.5
@@ -556,29 +419,6 @@ select.checked{
 :-ms-input-placeholder{
     color:#123354;
     opacity:.5
-}
-input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
-    -webkit-appearance:none;
-    margin:0
-}
-textarea{
-    border:none;
-    background-color:#fff;
-    box-shadow:inset 0 0 0 1px #e4e8ee;
-    border-radius:10px;
-    color:#123354;
-    display:inline-block;
-    outline:0;
-    padding:12px 18px;
-    font-family:Inter,Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif,"Noto Color Emoji","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size:20px;
-    line-height:32px;
-    letter-spacing:-.019em;
-    resize:none;
-    overflow:hidden
-}
-textarea:focus{
-    box-shadow:0 2px 4px rgba(21,166,240,.2),inset 0 0 0 2px #15a6f0
 }
 table{
     border-collapse:collapse;
@@ -607,10 +447,6 @@ td,th{
     padding:8px 16px;
     text-align:center
 }
-th.hide{
-    border:0;
-    background:0 0
-}
 td,th{
     text-align:left
 }
@@ -622,9 +458,6 @@ th{
 }
 tr:nth-child(odd)>td{
     background-color:rgba(18,51,84,.025)
-}
-tr td small{
-    line-height:1.15
 }
 a.button,button{
     border-radius:10px;
@@ -643,9 +476,6 @@ a.button:first-child,button:first-child{
 }
 a.button:last-child,button:last-child{
     margin-right:0
-}
-small a.button{
-    padding:6px 9px
 }
 button{
     letter-spacing:-.019em;
@@ -688,20 +518,11 @@ a.button.flat:hover,button.flat:hover{
 a.button.flat:active,a.button.flat:hover:active,button.flat.checked,button.flat.checked:active,button.flat.checked:hover,button.flat.checked:hover:active,button.flat:active,button.flat:hover:active{
     background-color:rgba(18,51,84,.15)
 }
-.dark a.button,.dark button{
-    background-color:rgba(189,230,251,.15);
-    color:#bde6fb
-}
 .dark a.button:hover,.dark button:hover{
     background-color:rgba(189,230,251,.2)
 }
 .dark a.button:active,.dark a.button:hover:active,.dark button.checked,.dark button.checked:active,.dark button.checked:hover,.dark button.checked:hover:active,.dark button:active,.dark button:hover:active{
     background-color:rgba(189,230,251,.2)
-}
-.dark a.button.suggested,.dark button.suggested{
-    background-color:#bde6fb;
-    background-image:linear-gradient(65deg,#bde6fb,#bde6fb);
-    color:#1e2529
 }
 .dark a.button.suggested:hover,.dark button.suggested:hover{
     background-color:#d2f3ff;
@@ -713,11 +534,6 @@ a.button.flat:active,a.button.flat:hover:active,button.flat.checked,button.flat.
     background-image:linear-gradient(65deg,#8dd4f8,#8dd4f8);
     color:#1e2529
 }
-.dark a.button.flat,.dark button.flat{
-    background-color:transparent;
-    border-color:transparent;
-    color:#bde6fb
-}
 .dark a.button.flat:hover,.dark button.flat:hover{
     background-color:rgba(189,230,251,.075);
     color:#bde6fb
@@ -726,10 +542,6 @@ a.button.flat:active,a.button.flat:hover:active,button.flat.checked,button.flat.
     background-color:rgba(189,230,251,.15);
     color:#1e2529
 }
-.black a.button,.black button{
-    background-color:rgba(255,255,255,.075);
-    color:#fff
-}
 .black a.button:hover,.black button:hover{
     background-color:rgba(255,255,255,.15)
 }
@@ -737,42 +549,13 @@ a.button.flat:active,a.button.flat:hover:active,button.flat.checked,button.flat.
     background-color:rgba(255,255,255,.2);
     color:#fff
 }
-.cc-floating,.shadow{
-    box-shadow:0 8px 24px 0 rgba(18,51,84,.125)
-}
 @media screen and (max-width:768px){
     .shadow{
         box-shadow:0 4px 12px 0 rgba(18,51,84,.125)
     }
 }
-.cc-floating.cc-theme-classic{
-    border-radius:10px!important
-}
-a.cc-btn{
-    text-decoration:none
-}
 .rounded{
     border-radius:16px
-}
-.tooltip{
-    position:relative;
-    display:inline-block;
-    cursor:default
-}
-.tooltip .tooltip-text{
-    visibility:hidden;
-    background-color:rgba(0,0,0,.8);
-    background-clip:padding-box;
-    border:1px solid rgba(255,255,255,.1);
-    width:200px;
-    color:#fff;
-    text-align:center;
-    border-radius:8px;
-    padding:8px;
-    position:absolute;
-    top:-5px;
-    right:105%;
-    z-index:1
 }
 .tooltip:hover .tooltip-text{
     visibility:visible
@@ -803,9 +586,6 @@ section.extra-padding{
 }
 section.less-padding{
     padding:64px 0
-}
-section.smallest-padding{
-    padding:32px 0
 }
 section.no-padding{
     padding:0
@@ -876,10 +656,6 @@ nav#main #main-menu{
     margin-right:auto;
     transform:translateX(-24px)
 }
-nav#main #login-menu{
-    float:right;
-    right:0
-}
 nav ul.menu li a{
     text-align:center;
     display:inline-block;
@@ -926,17 +702,8 @@ nav#main .responsive{
 nav#main .responsive a.button{
     display:inline-block
 }
-nav#main .responsive.open a.button{
-    background-color:rgba(18,51,84,.2)
-}
 nav#main a.button{
     line-height:20px
-}
-.dark nav#main .logotype{
-    background-image:url(../images/nav/logo.svg)
-}
-.black nav .logotype{
-    background-image:url(../images/nav/logo.svg)
 }
 @media screen and (max-width:768px){
     nav#main .container{
@@ -1009,10 +776,6 @@ nav#main a.button{
         margin-left:16px
     }
 }
-nav.scroll-hidden{
-    opacity:0;
-    transition:none
-}
 nav.secondary,nav.tertiary{
     z-index:4
 }
@@ -1050,9 +813,6 @@ nav.secondary .container{
     -ms-overflow-style:none;
     scrollbar-width:none
 }
-nav.secondary .container::-webkit-scrollbar{
-    display:none
-}
 nav.secondary ul.menu{
     align-self:flex-end;
     display:flex;
@@ -1086,21 +846,6 @@ nav.secondary ul.menu li a.button{
 nav.secondary ul.menu li:last-child a.button{
     margin-right:0
 }
-nav.secondary a img,nav.secondary a.title{
-    margin-left:16px;
-    margin-right:16px;
-    white-space:nowrap;
-    text-decoration:none;
-    font-weight:700
-}
-nav.secondary a img{
-    width:48px;
-    height:48px
-}
-nav.secondary a img.logotype{
-    width:auto;
-    height:14px
-}
 @media screen and (max-width:480px){
     nav.secondary{
         padding:0;
@@ -1119,9 +864,6 @@ nav.secondary a img.logotype{
         margin-right:16px
     }
 }
-nav.tertiary{
-    text-align:center
-}
 #content nav.tertiary ul.menu,nav.tertiary ul.menu{
     padding:0 16px;
     background-color:rgba(18,51,84,.05);
@@ -1135,25 +877,6 @@ nav.tertiary ul.menu li a{
 }
 nav.tertiary ul.menu li a:hover{
     color:#ff7aba
-}
-nav.sticky{
-    position:fixed;
-    top:0;
-    width:100%;
-    opacity:1;
-    border-color:transparent;
-    background-color:transparent;
-    z-index:101
-}
-nav.sticky .container{
-    background-color:rgba(255,255,255,.975);
-    box-shadow:0 8px 32px rgba(18,51,84,.125)
-}
-nav.sticky+#content{
-    padding-top:72px
-}
-nav.secondary.sticky+#content{
-    padding-top:80px
 }
 @media screen and (max-width:480px){
     nav.tertiary ul.menu{
@@ -1174,28 +897,9 @@ nav.secondary.sticky+#content{
         padding-top:60px
     }
 }
-nav.tertiary.sticky{
-    height:72px
-}
-nav.tertiary.sticky ul.menu{
-    margin:0;
-    border-style:hidden;
-    background-color:transparent
-}
-nav.tertiary.sticky ul.menu li a{
-    line-height:72px
-}
 .nav-placeholder{
     display:block;
     height:72px
-}
-.placeholder-32{
-    display:block;
-    height:32px
-}
-.placeholder-64{
-    display:block;
-    height:64px
 }
 footer{
     padding:64px 0;
@@ -1227,10 +931,6 @@ footer .logo .icon:active,footer .logo .icon:active:hover{
 }
 footer .logo-contact{
     padding-bottom:64px
-}
-footer .contact .copy{
-    line-height:1.5;
-    padding-right:16px
 }
 footer .sitemap .footer-heading{
     font-family:"Space Grotesk",Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -1289,11 +989,6 @@ footer .legal .info .copyright,footer .legal .info{
 }
 footer .legal .info .copyright{
     margin-right:0
-}
-footer .legal .info .terms a{
-    margin:0 16px;
-    color:#1b1b1b60;
-    font-weight:400
 }
 footer .legal .info .terms a:active,footer .legal .info a:hover,footer .legal .info a:hover:active,footer a:active,footer a:hover,footer a:hover:active{
     color:#1b1b1b60
