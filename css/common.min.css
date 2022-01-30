@@ -49,7 +49,7 @@
 body,html{
     width:100%;
     height:100%;
-    color:#123354;
+    color:#2f1254;
     background-color:#f5f7fa;
     font-size:18px;
     letter-spacing:-.02em;
@@ -62,10 +62,10 @@ body,html{
     background-color:#fff
 }
 .grey{
-    background-color:#e9ecf1
+    background-color:#e9e9e9
 }
 .grey-gradient{
-    background-image:linear-gradient(#f5f7fa,#e9ecf1)
+    background-image:linear-gradient(#f5f7fa,#e9e3e9)
 }
 .red{
     color:#fff;
@@ -451,7 +451,7 @@ a{
     display:inline-block
 }
 a:hover{
-    color:#15a6f0
+    color:#ff7aba
 }
 .dark a{
     color:#bde6fb
@@ -534,23 +534,6 @@ input.checked,input:focus,select.checked,select:focus{
 }
 select::-ms-expand{
     display:none
-}
-select{
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    appearance:none;
-    background-image:url(https://assets.zorincdn.com/zorin.com/images/widgets/select.svg);
-    background-position:center right;
-    background-repeat:no-repeat;
-    border-radius:10px;
-    background-color:rgba(18,51,84,.075);
-    border:none;
-    color:#123354;
-    font-weight:400;
-    font-size:20px;
-    line-height:1.2em;
-    margin:0;
-    padding:12px 18px
 }
 select:hover{
     background-color:rgba(18,51,84,.15)
@@ -686,20 +669,20 @@ a.button:active,a.button:hover:active,button.checked,button.checked:active,butto
     text-decoration:none
 }
 a.button.suggested,button.suggested{
-    background-color:#15a6f0;
-    background-image:linear-gradient(65deg,#029be9,#22c5fd);
+    background-color:#d376ff;
+    background-image:linear-gradient(65deg,#d376ff,#ff7aba);
     color:#fff;
     font-weight:700;
     transform:translateZ(0)
 }
 a.button.suggested:hover,button.suggested:hover{
-    background-color:#22c5fd;
-    background-image:linear-gradient(65deg,#22c5fd,#22c5fd);
+    background-color:#ff7aba;
+    background-image:linear-gradient(65deg,#ff7aba,#ff7aba);
     color:#fff
 }
 a.button.suggested:active,a.button.suggested:hover:active,button.suggested:active,button.suggested:hover:active{
-    background-color:#0d87c5;
-    background-image:linear-gradient(65deg,#0d87c5,#0d87c5);
+    background-color:#b924ff;
+    background-image:linear-gradient(65deg,#b924ff,#b924ff);
     color:#fff
 }
 a.button.flat,button.flat{
@@ -1159,7 +1142,7 @@ nav.tertiary ul.menu li a{
     font-weight:500
 }
 nav.tertiary ul.menu li a:hover{
-    color:#15a6f0
+    color:#ff7aba
 }
 nav.sticky{
     position:fixed;
@@ -1227,7 +1210,7 @@ footer{
     line-height:2;
     font-size:16px;
     letter-spacing:-.02em;
-    color:#48617c
+    color:#1b1b1b60
 }
 footer p{
     margin:0
@@ -1302,7 +1285,7 @@ footer .legal{
     padding:64px 0 0 0;
     display:block;
     font-size:12px;
-    color:#7d90a2;
+    color:#1b1b1b60;
     letter-spacing:0
 }
 footer .legal .info{
@@ -1317,10 +1300,10 @@ footer .legal .info .copyright{
 }
 footer .legal .info .terms a{
     margin:0 16px;
-    color:#7d90a2;
+    color:#1b1b1b60;
     font-weight:400
 }
 footer .legal .info .terms a:active,footer .legal .info a:hover,footer .legal .info a:hover:active,footer a:active,footer a:hover,footer a:hover:active{
-    color:#123354
+    color:#1b1b1b60
 }
  
