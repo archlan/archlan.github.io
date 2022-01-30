@@ -409,12 +409,12 @@ section#linux .box p {
 section#linux #reliability.box {
   margin: 0 32px 0 0;
   background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
-    linear-gradient(65deg, #029be9, #22c5fd);
+    linear-gradient(65deg, #cc02e9, #5222fd);
 }
 section#linux #powerful.box {
   margin: 0 0 0 32px;
   background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
-    linear-gradient(65deg, #1bbe81, #2ae18e);
+    linear-gradient(65deg, #ea19a2, #ece02e);
 }
 @media screen and (max-width: 1024px) {
   section#linux .box {
@@ -446,7 +446,7 @@ section#privacy {
   padding-top: 0;
 }
 section#privacy .card {
-  background: linear-gradient(65deg, #1e2529, #354249);
+  background: linear-gradient(65deg, #6c4960, #522577);
 }
 section#privacy .row {
   padding-left: 0;
@@ -582,12 +582,12 @@ section#flexibility .box p {
 }
 section#flexibility #multi-boot.box {
   margin: 0 32px 0 0;
-  background: linear-gradient(65deg, #4b5560, #61717c);
+  background: linear-gradient(65deg, #db24c7, #e8d0e0);
 }
 section#flexibility #personalization.box {
   margin: 0 0 0 32px;
   background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
-    linear-gradient(65deg, #8e49e0, #9f74e7);
+    linear-gradient(65deg, #5200b3, #bc94ff);
 }
 @media screen and (max-width: 1024px) {
   section#flexibility .box {
@@ -621,7 +621,7 @@ section#compatible img {
 }
 section#cta .container {
   background-color: #dee4ee;
-  background-image: linear-gradient(to bottom, #dee4ee, #dee4ee 50%, #c7cdd7);
+  background-image: linear-gradient(to bottom, #f2f2f2, #f0f0f0 50%, #f1e4f2);
 }
 section#faqs .box {
   vertical-align: top;
