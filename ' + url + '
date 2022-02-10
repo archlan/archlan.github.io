@@ -60,7 +60,7 @@
 				</ul>
 
 				<div class="responsive" id="responsive-icon">
-					<a href="javascript:void(0);" onclick="responsiveMenu()" class="button"><strong>&#9776;</strong> Menu</a>
+					<a href="javascript:void(0);" onclick="responsiveMenu()" class="button"><strong>&#9776;</strong></a>
 				</div>
 			</div>
 		</nav>

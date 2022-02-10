@@ -27,7 +27,7 @@ h2 {
   }
   section#main .box {
     padding-top: 64px;
-    background-image: linear-gradient(to bottom, #f2f2f2, #efd7ff);
+    background-color: #fff;
   }
   @media screen and (max-width: 1024px) {
     section#main .box {
@@ -62,7 +62,7 @@ h2 {
   section#other-info .box {
     vertical-align: top;
     padding-top: 64px;
-    background-image: linear-gradient(to bottom, #f2f2f2, #efd7ff);
+    background-color: #fff;
   }
   section#other-info #archlan-i3.box {
     margin: 0 32px 0 0;
